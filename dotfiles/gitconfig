@@ -1,10 +1,10 @@
 [user]
-	name = Mike McQuaid
-	email = mike@mikemcquaid.com
+	name = Leo Franchi
+	email = lfranchi@kde.org
 [color]
 	ui = auto
 [github]
-	user = mikemcquaid
+	user = lfranchi
 	token = !security 2>&1 >/dev/null find-generic-password -gs github.token | grep password | cut -f2 -d\\\" #"
 [gist]
 	browse = true
@@ -17,6 +17,7 @@
 [alias]
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	b = checkout -b
+	co = checkout
 	i = rebase --interactive origin/master
 	r = pull --rebase
 	p = pull
@@ -51,19 +52,17 @@
 	smtpserver = smtp.gmail.com
 	smtpencryption = tls
 	smtpserverport = 587
-	smtpuser = mkmcqd
-	from = mike@mikemcquaid.com
+	smtpuser = lfranchi@gmail.com
+	from = lfranchi@kde.org 
 [sendemail "kdab"]
 	smtpserver = mail.kdab.com
 	smtpencryption = tls
 	smtpserverport = 25
-	smtpuser = mike
-	from = mike.mcquaid@kdab.com
+	smtpuser = leo
+	from = leo.franchi@kdab.com
 [url "git@github.com:"]
 	pushInsteadOf = git://github.com/
 [url "git@gitorious.org:"]
 	pushInsteadOf = git://gitorious.org/
 [url "git@git.kde.org:"]
 	pushInsteadOf = git://anongit.kde.org/
-[url "git@codaset.com:"]
-	pushInsteadOf = git://codaset.com/
